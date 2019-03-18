@@ -1,0 +1,74 @@
+body {
+  background: rgb(31, 31, 32);
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center !important;
+  justify-content: center !important;
+  align-content: center !important;
+  align-self: center !important;
+}
+
+#weatherInput {
+  border: 2px #ccc;
+  box-sizing: border-box;
+  border-radius: 0.6em;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+}
+
+#submitButton {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid red;
+  border-radius: 0.6em;
+  color: red;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 700;
+
+  /* Style of the button*/
+
+  border-color: rgb(36, 118, 211);
+  color: #fff;
+  box-shadow: 0 0 40px 40px rgb(36, 118, 211) inset, 0 0 0 0 rgb(36, 118, 211);
+  transition: all 150ms ease-in-out;
+}
+
+#submitButton:hover {
+  box-shadow: 0 0 10px 0 rgb(36, 118, 211) inset, 0 0 10px 4px rgb(36, 118, 211);
+}
+
+#one {
+  color: white;
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+#two {
+  color: white;
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+}
