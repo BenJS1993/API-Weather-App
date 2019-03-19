@@ -4,10 +4,15 @@ const geocode = require("./geocode");
 const forecast = require("./forecast");
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 const publicDirectory = path.join(__dirname, "../public");
 
 app.use(express.static(publicDirectory));
+
+app.listen(port, () => {
+  console.log(`server is running on ${port}`);
+});
 
 // let benfavourite = {
 //   game: "Banjo-Kazooie",
